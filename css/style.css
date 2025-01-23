@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+
+  body#bospagina {
+    background-image: url(../images/bosbg.svg);
+  }
+
+  body#stadpagina {
+    background-image: url(../images/stadbg.svg);
+  }
+
+  body#bootpagina {
+    background-image: url(../images/bootbg.svg)
+  }
+
+  body#homepagina {
+    background-image: url(../images/homebg.jpg)
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    background: rgba(70, 111, 176, .5);
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration:none;
+    list-style: none;
+    height: 3em;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  #headerlogo {
+    width: 4em;
+  }
+
+  li a {
+    padding: 0.3em;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+  }
+
+  article.homepage {
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0.5em;
+    background: rgba(240, 248, 255, .5);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homepage section{
+    margin-bottom: 1em;
+  }
+
+  .homepage section h2{
+    font-size: 1.1em;
+    font-weight: 600;
+
+  }
+
+  /* v cat stuff bos v */
+
+  article {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #orange1 {
+    position: fixed;
+    top: 7em;
+    width: 5em;
+  }
+
+  .bimi {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7em;
+    top: 8em;
+    position: fixed;
+    left: 8em;
+    background: rgba(240, 248, 255, .7);
+    padding: 0.5em;
+  }
+
+  #orange2 {
+    position: fixed;
+    top: 27em;
+    width: 5em;
+    right: 0;
+  }
+
+  .buma {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7em;
+    top: 35em;
+    position: fixed;
+    right: 8em;
+    background: rgba(240, 248, 255, .7);
+    padding: 0.5em;
+  }
+
+  /* v cat stuff stad v */
+
+  #grey1 {
+    position: fixed;
+    top: 7em;
+    width: 5em;
+  }
+
+  .tippy {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7em;
+    top: 8em;
+    position: fixed;
+    left: 8em;
+    background: rgba(240, 248, 255, .7);
+    padding: 0.5em;
+  }
+
+  #orange3 {
+    position: fixed;
+    top: 27em;
+    width: 5em;
+    right: 0;
+  }
+
+  .bassie {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7em;
+    top: 35em;
+    position: fixed;
+    right: 8em;
+    background: rgba(240, 248, 255, .7);
+    padding: 0.5em;
+  }
+
+    /* v cat stuff boot v */
+    #black1 {
+      position: fixed;
+      top: 7em;
+      width: 5em;
+    }
+  
+    .ted {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.7em;
+      top: 8em;
+      position: fixed;
+      left: 8em;
+      background: rgba(240, 248, 255, .7);
+      padding: 0.5em;
+    }
+  
+    #orange4 {
+      position: fixed;
+      top: 27em;
+      width: 5em;
+      right: 0;
+    }
+  
+    .snoet {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.7em;
+      top: 35em;
+      position: fixed;
+      right: 8em;
+      background: rgba(240, 248, 255, .7);
+      padding: 0.5em;
+
+
+
