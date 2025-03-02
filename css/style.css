@@ -19,7 +19,7 @@
   }
 
   body#homepagina {
-    background-image: url(../images/homebg.jpg)
+    background-image: url(../images/home2.png)
   }
 
   header {
@@ -47,9 +47,16 @@
 
   li a {
     padding: 0.3em;
-    font-size: 1em;
+    font-size: 0.9em;
     text-decoration: none;
     color: black;
+    border-style:solid;
+    border-radius: 1em;
+    margin-right: 0.2em;
+  }
+
+  a:hover {
+    background-color: rgba(45, 142, 180, 0.47);
   }
 
   article.homepage {
@@ -59,6 +66,7 @@
     background: rgba(240, 248, 255, .5);
     display: flex;
     flex-direction: column;
+    border-radius: 1em;
   }
 
   .homepage section{
@@ -93,6 +101,7 @@
     left: 8em;
     background: rgba(240, 248, 255, .7);
     padding: 0.5em;
+    border-radius: 1em;
   }
 
   #orange2 {
@@ -111,6 +120,7 @@
     right: 8em;
     background: rgba(240, 248, 255, .7);
     padding: 0.5em;
+    border-radius: 1em;
   }
 
   /* v cat stuff stad v */
@@ -130,6 +140,7 @@
     left: 8em;
     background: rgba(240, 248, 255, .7);
     padding: 0.5em;
+    border-radius: 1em;
   }
 
   #orange3 {
@@ -148,6 +159,7 @@
     right: 8em;
     background: rgba(240, 248, 255, .7);
     padding: 0.5em;
+    border-radius: 1em;
   }
 
     /* v cat stuff boot v */
@@ -166,6 +178,7 @@
       left: 8em;
       background: rgba(240, 248, 255, .7);
       padding: 0.5em;
+      border-radius: 1em;
     }
   
     #orange4 {
@@ -183,7 +196,6 @@
       position: fixed;
       right: 8em;
       background: rgba(240, 248, 255, .7);
-      padding: 0.5em;
-
-
-
+      padding: 0.5em; 
+      border-radius: 1em;
+    }
